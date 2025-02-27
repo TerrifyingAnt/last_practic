@@ -9,8 +9,7 @@ import java.util.regex.Pattern;
 
 public class App {
       public static void main(String[] args) {
-      // Путь к файлу (замените на путь к вашему файлу)
-      String filePath = "input.txt";
+      String filePath = "src/main/java/org/example/input.txt";
 
       // Чтение текста из файла
       String inputText = readFile(filePath);
