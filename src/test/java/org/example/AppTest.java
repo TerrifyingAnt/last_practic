@@ -8,7 +8,7 @@ class AppTest {
 
   @Test
   void testFormatText_ValidNumbers() {
-    String input = "Телефоны: +7(900)123-45-67, 8-900-123-45-67, 89001234567";
+    String input = "Телефоны: +7(900)123-45-67, 8-900-123-45-67, 8 9001234567";
     String expected = "Телефоны: +1 (900) 123-45-67, +1 (900) 123-45-67, +1 (900) 123-45-67";
     String result = App.formatText(input);
     assertEquals(expected, result);
